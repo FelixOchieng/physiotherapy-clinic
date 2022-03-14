@@ -41,12 +41,12 @@ Please make sure the following packages are available in the host machine before
    php artisan key:generate
    ```
 
-5. Create Wholesale MySQL database
+5. Create MySQL database
    ```shell
    create database physiotherapy_clinic;
    ```
 
-6. Migrate the tables and seed the data
+6. Migrate the tables and seed sample data
    ```shell
    php artisan migrate --seed
    ```
